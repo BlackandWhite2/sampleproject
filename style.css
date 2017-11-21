@@ -1,0 +1,195 @@
+body
+{
+	background: #faeedc;
+	font: 16px/24px Arial, Tahoma, sans-serif;
+}
+img
+{
+	border: none;
+	outline: none;
+	max-width: 100%;
+	height: auto !important;
+}
+.logo
+{
+	/* max-width: 160px; */
+	width: 14.57%;
+	float: left;
+	padding-left: 15px;
+}
+embed, object, video
+{
+	max-width: 100%;
+	height: auto;
+}
+header
+{
+	margin: 0 auto;
+	/* background: #252525;  */
+	/* padding: 2%; */
+	/* padding-bottom: 0; */
+	max-width: 1040px; width: 100%;
+}
+header h1
+{
+	font-size:1.5em;
+	line-height: 1.3em;
+}
+.mid
+{
+	max-width: 1040px; 
+	margin: 0 auto;
+	outline: #ff9f00 solid 2px;
+	background: #FAEFE1;
+}
+ul.top{
+	margin-top: 0%; /*регулирование высоты меню*/
+	padding-left: 51.897%; /*сместили меню вправо (float Не работает)*/
+}
+/*МЕНЮ*/
+    ul { 
+      list-style: none; /*убираем маркеры списка*/
+      margin: 0; /*убираем отступы*/ 
+	  margin-left: 15%;
+      padding-left: 0; /*убираем отступы*/
+      /* margin-top: 100px; /*делаем отступ сверху*/ 
+	  padding-top: 10%;
+      /*background: linear-gradient(to right, #faeedc, #ff9f00); /*#819A32 добавляем фон всему меню linear-gradient(to right, #faeedc, #ff9f00)*/
+      height: 50px; /*задаем высоту 50px*/ 
+    }
+    a {
+      text-decoration: none; /*убираем подчеркивание текста ссылок*/
+      background:#ff9f00; /*добавляем фон к пункту меню* */
+      color:#fff; /*меняем цвет ссылок*/
+      padding:0px 15px; /*добавляем отступ*/
+      font-family: arial; /*меняем шрифт*/
+      line-height:50px; /*ровняем меню по вертикали*/
+      display: block; 
+	  border-left: 1px solid #677B27; /*добавляем бордюр слева*/
+      -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+      -o-transition: all 0.3s 0.01s ease;
+      -webkit-transition: all 0.3s 0.01s ease;
+    }
+    a:hover {
+      background:#D43737;/*добавляем эффект при наведении*/
+    }
+    li {
+      float:left; /*Размещаем список горизонтально для реализации меню*/
+      position:relative; /*задаем позицию для позиционирования*/
+    }
+         
+        /*Стили для скрытого выпадающего меню*/
+        li > ul {
+            position:absolute;
+            top:25px;
+            display:none;   
+        }
+         
+        /*Делаем скрытую часть видимой*/
+        li:hover > ul {
+            display:block; 
+            width:250%;  /*Задаем ширину выпадающего меню*/ 
+			margin: 0;
+			margin-top: 20%;
+        }
+       li:hover > ul > li {
+            float:none; /*Убираем горизонтальное позиционирование*/
+        }
+.content
+{
+	padding: 0; 
+	max-width: 1040px; /* 65am */
+	margin: 0 auto;
+}
+.leftblock
+{
+	clear: left;
+	float: left;
+	/* padding: 1%; */
+	width: 33%;
+}
+.midleblock
+{
+	/* float: left; */
+	/* padding: 1%; */
+	width: 34%;
+	left: 33%;
+}
+.rightblock
+{
+	float: right;
+	/* float: left; */
+	/* padding: 1%; */
+	width: 33%;
+	right: 0;
+}
+div.block
+{
+	width: 30%;
+	box-shadow: 1px 1px 2px #eea60c;
+	float: left;
+	margin: 10px 15px 10px;
+	margin-left: 20px;
+}
+div.block:nth-of-type(2)
+{
+	margin: 10px 15px 10px;
+}
+div.block:nth-of-type(3)
+{
+	margin: 10px 15px 10px;
+}
+div.block:nth-of-type(4)
+{
+	margin: 10px 15px 10px;
+	margin-left: 20px;
+}
+div.block:nth-of-type(5)
+{
+	margin: 10px 15px 10px;
+}
+div.block:nth-of-type(6)
+{
+	margin: 10px 15px 10px;
+}
+div.block a p
+{
+	color: #272727;
+}
+div.anons
+{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 3px;
+}
+div.anons img
+{
+	box-shadow: 1px 1px 5px #777;
+}
+div.anons h3
+{
+	font-size: 20px;
+	margin: 20px 0 10px;
+	color: #01617d;
+	padding: 0;
+	font-weight: normal;
+	line-height: 20px;
+}
+div.anons p
+{
+	text-shadow:1px 1px 0 #fff;
+}
+div.anons:hover
+{
+	background: #f2e8e8;
+		border: 1px solid #eea60c;
+	padding: 20px;
+	border-radius: 3px;
+}
+div.footer
+{
+	max-width: 1040px; 
+	margin: 0 auto;
+	background: #FAEFE1;
+}
